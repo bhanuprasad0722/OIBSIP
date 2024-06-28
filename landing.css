@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container {
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+.nav_bar {
+    text-align: left;
+    color: rgb(161, 5, 5);
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold;
+    padding-left: 100px;
+
+}
+.nav_bar p {
+    font-size: 25px;
+    padding-top: 5px;
+}
+#english {
+    color: black;
+    padding-right: 100px;
+    font-size: 20px;
+}
+.content h1 {
+    text-align: center;
+    font-size: 70px;
+    padding:0;
+    margin: 10px;
+}
+.content p {
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+}
+.button h3 {
+    background-color: rgb(11, 177, 11);
+    border-radius: 20px;
+    margin-right: 530px;
+    text-align: center;
+    margin-left: 530px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.button p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight:20px;
+    font-size: small;
+}
+/* secure access division */
+.secure {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.image {
+    background-image: url("secure1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 250px;
+    
+}
+.secure_access h1 {
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 320px;
+}
+.secure_access p {
+    margin-right: 300px;
+    margin-left: 100px;
+}
+.secure_access button {
+    background-color: rgb(11, 177, 11);
+    border-radius: 20px;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+/* safer section */
+.safer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.safer_internet h1 {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 220px;
+    margin-right: 80px;
+}
+.safer_internet p {
+    margin-left: 220px;
+    margin-right: 20px;
+}
+.image2 {
+    background-image: url("safer_internet.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 800px;
+    margin-top: 20px;
+    margin-right: 220px;
+}
+/* device section */
+.device {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.image3 {
+    background-image: url("devices.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.device_content button {
+    background-color: rgb(11, 177, 11);
+    border-radius: 20px;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.device_content h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 60px;
+}
+.device_content p {
+    margin-right: 200px;
+    margin-left: 60px;
+}
+.three {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-around;
+    
+}
+.stronger {
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+}
+.image4 {
+    background-image: url("padlock.jpg");
+    height: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.globe {
+    height: 400px;
+    width: 300px;
+
+}
+.image5 {
+    background-image: url("globe.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+}
+.sppedometer {
+    height: 400px;
+    width: 300px;
+    margin-right: 50px;
+}
+.image6 {
+    background-image: url("speedometer.jpg");
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 50px;
+
+}
+.three p {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight:800;
+}
+#matter {
+    font-size: small;
+    font-weight: 100;
+    font-style:normal;
+
+}
+.world_map {
+    background-image: url("world_map_3.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-top: 10px;
+    height: 400px;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.world_map p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+hr.line {
+    border: 10px rgb(239, 225, 169) solid;
+
+}
